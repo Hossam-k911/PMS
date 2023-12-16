@@ -1,0 +1,34 @@
+.login {
+  background-image: url("../../images/loginBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: rgba(49, 89, 81, 0.9);
+  padding: 2rem;
+  border-radius: 1rem;
+
+  .inner-title {
+    h3 {
+      color: #ef9b28;
+      position: relative;
+      &::after {
+        width: 20px;
+        height: 5px;
+        background-color: #ef9b28;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        z-index: 1212;
+      }
+    }
+  }
+}
